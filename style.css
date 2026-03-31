@@ -1,0 +1,67 @@
+.page-title {
+    text-align: center;
+    font-size: 18pt;
+}
+
+p,
+div {
+    /* color: #000000; */
+    color: #000000
+
+}
+
+.logo {
+    color: #9a4c4c;
+    text-decoration: none;
+    text-shadow: 0 0 20px #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+    will-change: transform;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    padding: 15px 0;
+    border-top: 2px solid #7b2e2e;
+    border-bottom: 2px solid #7b2e2e;
+    z-index: 1000;
+    overflow-x: auto;
+    white-space: nowrap;   
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
