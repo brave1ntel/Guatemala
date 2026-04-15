@@ -65,3 +65,18 @@ nav a:hover {
     display: block;
 }
 
+.government-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.government-image {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.center-text {
+    text-align: center;
+}
