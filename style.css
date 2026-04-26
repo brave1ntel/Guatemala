@@ -3,6 +3,10 @@
     font-size: 18pt;
 }
 
+body {
+    padding: 50px;
+}
+
 p,
 div {
     /* color: #000000; */
@@ -79,4 +83,18 @@ nav a:hover {
 
 .center-text {
     text-align: center;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
